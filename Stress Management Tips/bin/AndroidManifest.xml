@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.digitechlab.stresstips"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+      
+        <activity
+            android:name="com.appmasters.stresstips.Stsplash"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.appmasters.stresstips.StressActivity"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="com.appmasters.stresstips.STRESSACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+                
+         <activity
+            android:name="com.appmasters.stresstips.Tips1"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         
+         <activity
+            android:name="com.appmasters.stresstips.Tips2"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                  
+        <activity
+            android:name="com.appmasters.stresstips.Tips3"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                           
+        <activity
+            android:name="com.appmasters.stresstips.Tips4"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity
+            android:name="com.appmasters.stresstips.Tips5"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         
+         <activity
+            android:name="com.appmasters.stresstips.Tips6"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                  
+        <activity
+            android:name="com.appmasters.stresstips.Tips7"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                           
+        <activity
+            android:name="com.appmasters.stresstips.Tips8"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity
+            android:name="com.appmasters.stresstips.Tips9"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         
+         <activity
+            android:name="com.appmasters.stresstips.Tips10"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                  
+        <activity
+            android:name="com.appmasters.stresstips.Tips11"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                           
+        <activity
+            android:name="com.appmasters.stresstips.AboutActivity"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.digitechlab.stressquotations"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.appmasters.stressquotations.Stsplash"
+            android:label="@string/app_name" 
+             android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.appmasters.stressquotations.StressActivity"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="com.appmasters.stressquotations.STRESSACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.appmasters.stressquotations.Quot1"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.appmasters.stressquotations.Quot2"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.appmasters.stressquotations.Quot3"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity
+            android:name="com.appmasters.stressquotations.Quot4"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         
+         <activity
+            android:name="com.appmasters.stressquotations.Quot5"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.appmasters.stressquotations.Quot6"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.appmasters.stressquotations.Quot7"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity
+            android:name="com.appmasters.stressquotations.Quot8"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         
+                 <activity
+            android:name="com.appmasters.stressquotations.Quot9"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.appmasters.stressquotations.Quot10"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.appmasters.stressquotations.Quot11"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity
+            android:name="com.appmasters.stressquotations.Quot12"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         
+         <activity
+            android:name="com.appmasters.stressquotations.Quot13"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+         
+        
+    </application>
+
+</manifest>
